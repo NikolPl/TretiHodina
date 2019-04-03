@@ -21,6 +21,7 @@ public class OurAdapter extends ArrayAdapter { // extends -- znamená, že děd�
         this.activity = activity;
         this.animals = animals;
     }
+    //
     // nafukovač - aby se dostaly data do prvku v listu
     public View getView(int position, View view, ViewGroup parent){
         LayoutInflater inflater = activity.getLayoutInflater();
